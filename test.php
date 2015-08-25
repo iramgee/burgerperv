@@ -10,7 +10,7 @@
 <?php
  $purl = $_GET['purl'];
 ?>
-go to your purl, <a href="<?php echo $purl.'.testmaml.m.mdl.io/tjmaxx'; ?>" target="_blank">here</a><br>
+go to your purl, <a href="<?php echo 'http://'.$purl.'.testmaml.m.mdl.io/tjmaxx'; ?>" target="_blank">here</a><br>
 
 <?php
 
